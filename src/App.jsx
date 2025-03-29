@@ -1,14 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-
+import Header from './Header'
 function App() {
-  
-
-  return (
+  return(
     <>
-     <h1>lets build linkdin clone</h1>
+    <Header/>
     </>
   )
+
 }
 
 export default App
