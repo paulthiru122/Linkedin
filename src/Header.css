@@ -1,6 +1,13 @@
 .header{
-    position: sticky;
     display: flex;
+    justify-content: space-evenly;
+    border-bottom: .1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: static;
+    top: 0;
+    z-index: 999;
 }
 .header-left{
     display: flex;
@@ -26,6 +33,10 @@
     outline: none;
     border: none;
     padding: 8px 12px;
-    background-color:#f3f6f8;
+    /* background-color:#f3f6f8; */
+
+}
+.header-right{
+    display: flex;
 
 }
